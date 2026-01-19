@@ -24,7 +24,7 @@ const App: React.FC = () => {
                 Theivendiram Pranavan
               </p>
               <p className="text-[18px] leading-[27px] font-normal text-white/50 text-glow">
-                Zhu Zikun
+                Ngoc Nhu Thao Nguyen
               </p>
             </div>
           </div>
@@ -33,16 +33,16 @@ const App: React.FC = () => {
           <div className="nav-section mb-6">
             <h3 className="section-header">Individual Project</h3>
             <div className="space-y-1">
-              <a href="https://canvas.nus.edu.sg/courses/69912/files/folder/Projects/Individual%20Project" className="nav-link" target="_blank" rel="noopener noreferrer">
+              <a href="https://canvas.nus.edu.sg/courses/85382/discussion_topics/414365" className="nav-link" target="_blank" rel="noopener noreferrer">
                 iP Details
               </a>
-              <a href="https://nus-cs2103de-ay2425s2.github.io/ip-progress-dashboard/" className="nav-link" target="_blank" rel="noopener noreferrer">
+              <a href="https://nus-cs2103de-ay2526s2.github.io/ip-progress-dashboard/" className="nav-link" target="_blank" rel="noopener noreferrer">
                 iP Progress Dashboard
               </a>
-              <a href="https://nus-cs2103de-ay2425s2.github.io/ip-code-dashboard/" className="nav-link" target="_blank" rel="noopener noreferrer">
+              <a href="https://nus-cs2103de-ay2526s2.github.io/ip-code-dashboard/" className="nav-link" target="_blank" rel="noopener noreferrer">
                 iP Code Dashboard
               </a>
-              <a href="https://github.com/nus-cs2103de-ay2425s2/duke" className="nav-link" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/nus-cs2103de-ay2526s2/duke" className="nav-link" target="_blank" rel="noopener noreferrer">
                 iP Upstream
               </a>
             </div>
