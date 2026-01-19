@@ -28,7 +28,7 @@ jobs:
         run: npm ci
       - name: Build
         env:
-          DEPLOY_TARGET: ${{ github.repository == 'nus-cs2103de-ay2425s2/nus-cs2103de-ay2425s2.github.io' && 'org' || 'landing' }}
+          DEPLOY_TARGET: ${{ github.repository == 'nus-cs2103de-ay2526s2/nus-cs2103de-ay2526s2.github.io' && 'org' || 'landing' }}
         run: npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
@@ -38,7 +38,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ github.repository == 'nus-cs2103de-ay2425s2/nus-cs2103de-ay2425s2.github.io' && 'https://nus-cs2103de-ay2425s2.github.io' || format('https://nus-cs2103de-ay2425s2.github.io/{0}', github.event.repository.name) }}
+      url: ${{ github.repository == 'nus-cs2103de-ay2526s2/nus-cs2103de-ay2526s2.github.io' && 'https://nus-cs2103de-ay2526s2.github.io' || format('https://nus-cs2103de-ay2526s2.github.io/{0}', github.event.repository.name) }}
     runs-on: ubuntu-latest
     needs: build
     steps:
